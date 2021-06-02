@@ -5,7 +5,7 @@
   tasks:
    - name: copying files to remote host
      copy:
-       src: /var/jenkins_home/workspace/Angulartest/angular/dist/website
+       src: /var/jenkins_home/workspace/Eindopdracht_freestyle
        dest: /home/acant/EindOpdracht_Prettier/Devops
 
 
