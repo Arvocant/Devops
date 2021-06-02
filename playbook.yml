@@ -1,0 +1,11 @@
+---
+- name: docker install
+  hosts: all
+  user: root
+  tasks:
+   - name: copying files to remote host
+     copy:
+       src: /var/jenkins_home/workspace/Angulartest/angular/dist/website
+       dest: /home/acant/EindOpdracht_Prettier/Devops
+
+
