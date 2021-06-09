@@ -16,6 +16,6 @@
         - 8100:81
   - name: copying files to remote host
     copy:
-      src: /var/jenkins_home/workspace/Eindopdracht_freestyle/dist
+      src: /var/jenkins_home/workspace/Eindopdracht_freestyle/dist/
       dest: /home/acant/webserver
 
