@@ -16,7 +16,7 @@
         - 8200:80
   - name: copying files to remote host
     copy:
-      src: /var/jenkins_home/workspace/Eindopdracht_freestyle/dist
+      src: /var/jenkins_home/workspace/Eindopdracht_freestyle/dist/angular-material-template/
       dest: /home/acant/webtest
 
 
