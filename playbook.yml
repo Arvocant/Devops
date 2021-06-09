@@ -1,6 +1,5 @@
 ---
-- name: docker install
-  hosts: all
+- hosts: eindopdracht
   user: root
   tasks:
    - name: copying files to remote host

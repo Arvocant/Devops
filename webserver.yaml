@@ -5,7 +5,7 @@
   user: root
   tasks:
   - name: webserver angular starten
-    community.docker.docker_container:
+    docker_container:
       name: webserver
       image: nginx
       state: started
