@@ -1,7 +1,7 @@
 ---
 # docker run
 
-- hosts: angular
+- hosts: eindopdracht
   user: root
   tasks:
   - name: webtest angular starten
