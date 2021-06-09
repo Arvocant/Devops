@@ -13,7 +13,7 @@
       volumes:
         - /home/acant/webserver:/usr/share/nginx/html
       ports:
-        - 8100:81
+        - 8100:80
   - name: copying files to remote host
     copy:
       src: /var/jenkins_home/workspace/Eindopdracht_freestyle/dist/

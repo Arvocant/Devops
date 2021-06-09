@@ -5,7 +5,7 @@
   user: root
   tasks:
   - name: webtest angular starten
-    community.docker.docker_container:
+    docker_container:
       name: webtest
       image: nginx
       state: started
@@ -13,7 +13,7 @@
       volumes:
         - /home/acant/webtest:/usr/share/nginx/html
       ports:
-        - 8200:82
+        - 8200:80
   - name: copying files to remote host
     copy:
       src: /var/jenkins_home/workspace/Eindopdracht_freestyle/dist
