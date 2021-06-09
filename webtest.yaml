@@ -6,7 +6,7 @@
   tasks:
   - name: webtest angular starten
     community.docker.docker_container:
-      name: webserver
+      name: webtest
       image: nginx
       state: started
       restart: yes
