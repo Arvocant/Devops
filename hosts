@@ -1,5 +1,3 @@
 [eindopdracht]
-192.168.0.157:4200
-ansible_user=root
-ansible_password=6EJ5i7cmCO
+192.168.0.157 ansible_user=root ansible_password=6EJ5i7cmCO ansible_python_interpreter=/usr/bin/python3
 

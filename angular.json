@@ -122,5 +122,8 @@
       }
     }
   },
-  "defaultProject": "angular-material-template"
+  "defaultProject": "angular-material-template",
+  "cli": {
+    "analytics": "afa04655-bd66-4a33-a526-15e3b56f47a1"
+  }
 }

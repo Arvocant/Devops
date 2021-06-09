@@ -1,0 +1,21 @@
+---
+# docker run
+
+- hosts: angular
+  user: root
+  tasks:
+  - name: webserver angular starten
+    community.docker.docker_container:
+      name: webserver
+      image: nginx
+      state: started
+      restart: yes
+      volumes:
+        - /home/acant/webserver:/usr/share/nginx/html
+      ports:
+        - 8100:81
+  - name: copying files to remote host
+    copy:
+      src: /var/jenkins_home/workspace/Eindopdracht_freestyle/dist
+      dest: /home/acant/webserver
+
